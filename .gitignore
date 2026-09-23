@@ -1,4 +1,13 @@
+# Terraform
 .terraform/
 .terraform.lock.hcl
-.terraform/terraform.tfstate
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Environment variables
+.env
+.env.*
+
 ssh-key
