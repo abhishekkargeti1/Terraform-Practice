@@ -69,7 +69,6 @@ resource "aws_instance" "myFirstEc2" {
   for_each = ({
     Terraform_Automate_EC2_1 = "t2.micro"
     Terraform_Automate_EC2_2 = "t2.micro"
-    Terraform_Automate_EC2_3 = "t2.micro"
   }) #  This is meta argument
 
   key_name        = aws_key_pair.ssh_key.key_name
